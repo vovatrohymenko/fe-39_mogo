@@ -1,0 +1,95 @@
+:root {
+  --colorTextPrimary: #333;
+  --colorTextSecondary: #b6b6b6;
+  --colorTextTertiary: #95e1d3;
+  --colorHover: #f38181;
+  --colorTextButton: #fff;
+  /*Шрифти*/
+  --fontTextPrimary: "Montserrat", sans-serif;
+  --fontTextSecondary: "Roboto", sans-serif;
+}
+/*=======================GLOBAL=========================================*/
+body {
+  font-family: var(--fontTextPrimary);
+  color: var(--fontColorPrimary);
+  font-size: 14px;
+  font-weight: 400;
+}
+/*=======================HEADER=========================================*/
+.logo {
+  text-decoration: none;
+}
+.logo-text {
+  color: var(--colorTextTertiary);
+  font-size: 30px;
+  font-weight: 700;
+}
+.nav-link {
+  color: var(--colorTextTertiary);
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: var(--colorHover);
+}
+/*========================SERVICES===============================================*/
+.services-title {
+  font-size: 30px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+  text-align: center;
+}
+.service-title {
+  font-variant: small-caps;
+}
+.service-text {
+  color: var(--colorTextSecondary);
+  font-family: var(--fontTextSecondary);
+  font-size: 15px;
+  line-height: 1.47; /* 146.667% */
+}
+/*========================TEAM===============================================*/
+
+.team-title {
+  font-size: 30px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+  text-align: center;
+}
+.team-text {
+  color: var(--colorTextSecondary);
+  text-align: center;
+  font-family: var(--fontTextSecondary);
+  font-size: 15px;
+}
+.teammete-name {
+  font-variant: all-small-caps;
+  text-align: center;
+}
+.teammete-role {
+  color: var(--colorTextSecondary);
+  text-align: center;
+  font-family: var(--fontTextSecondary);
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300;
+}
+/*========================FOOTER===============================================*/
+
+.footer-info {
+  color: var(--colorHover);
+}
+.subscribe-mail::placeholder {
+  color: var(--colorTextSecondary);
+  font-family: var(--fontTextSecondary);
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+}
+.subscribe-button {
+  color: var(--colorTextButton);
+  text-align: center;
+  font-family: var(--fontTextPrimary);
+  font-size: 14px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+}
