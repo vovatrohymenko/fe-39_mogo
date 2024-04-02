@@ -22,15 +22,26 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 /*=======================HEADER=========================================*/
 .header {
   padding-top: 17px;
   padding-bottom: 80px;
 }
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .logo-text {
   color: var(--colorTextTertiary);
   font-size: 30px;
   font-weight: 700;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 55px;
 }
 .nav-link {
   color: var(--colorTextTertiary);
@@ -43,11 +54,26 @@ body {
 .services {
   padding-bottom: 100px;
 }
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 100px;
+}
+
+.service {
+  max-width: 330px;
+}
+.services-heading {
+  display: flex;
+  gap: 20px;
+}
 .services-title {
   font-size: 30px;
   font-weight: 700;
   font-variant: all-small-caps;
   text-align: center;
+  padding-bottom: 65px;
 }
 .service-title {
   font-variant: small-caps;
@@ -57,11 +83,13 @@ body {
   font-family: var(--fontTextSecondary);
   font-size: 15px;
   line-height: 1.47; /* 146.667% */
+  padding-left: 57px;
 }
 /*========================TEAM===============================================*/
 .team {
   padding-bottom: 80px;
 }
+
 .team-title {
   font-size: 30px;
   font-weight: 700;
@@ -73,6 +101,10 @@ body {
   text-align: center;
   font-family: var(--fontTextSecondary);
   font-size: 15px;
+}
+.team-members {
+  display: flex;
+  gap: 30px;
 }
 .teammete-name {
   font-variant: all-small-caps;
@@ -87,9 +119,18 @@ body {
   font-weight: 300;
 }
 /*========================FOOTER===============================================*/
+
 .footer {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subscribe {
+  display: flex;
 }
 .footer-info {
   color: var(--colorHover);
@@ -101,6 +142,9 @@ body {
   font-style: italic;
   font-weight: 300;
 }
+.subscribe-mail {
+  padding: 12px 10px;
+}
 .subscribe-button {
   color: var(--colorTextButton);
   text-align: center;
@@ -108,4 +152,6 @@ body {
   font-size: 14px;
   font-weight: 700;
   font-variant: all-small-caps;
+  padding: 12px 38px;
+  background-color: #95e1d3;
 }

@@ -18,3 +18,7 @@ h6 {
 ul {
   list-style: none;
 }
+button,
+input {
+  border: none;
+}
